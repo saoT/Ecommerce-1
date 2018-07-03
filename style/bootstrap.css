@@ -1,0 +1,18 @@
+.menu{
+    margin-left: 0%;
+    
+}
+.menu li {
+display: inline;
+}
+
+.menu li a {
+    padding: 2% 8%;
+    background-color: pink;
+    margin-right: -2%;
+    
+}
+h1{
+    text-align: center;
+    margin-bottom: 2.6%;
+}
