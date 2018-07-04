@@ -1,6 +1,10 @@
+
+<div class="sidebar">
+<h4>Derniers articles</h4>
+</div>
+
 <?php
-require_once('includes/header.php');
-require_once('includes/sidebar.php');
+
 try
                 {
                     $db = new PDO('mysql:host=localhost;dbname=site1','root','');
@@ -10,8 +14,7 @@ try
                     echo'erreurr';
                     die();
                 }
-
-$select = $db ->prepare("SELECT * FROM products");
+$select = $db ->prepare("SELECT * FROM products ORDER BY id DESC LIMIT 0,3");
          $select->execute();
         
     while ($s=$select->fetch(PDO::FETCH_OBJ)){

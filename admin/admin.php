@@ -34,7 +34,7 @@ session_start();
                 $insert->execute();
                 
             }else{
-                echo 'remplir';
+                echo 'Veuillez remplir';
             }
         }
 
