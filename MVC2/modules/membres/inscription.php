@@ -19,7 +19,7 @@ $form_inscription->add('Password', 'mdp_verif')
 				 ->label("Confirmez votre mot de passe");
 
 $form_inscription->add('Text', 'adresse')
-				 ->label("L'adresse de votre domicile");
+				 ->label("Votre adresse de livraison");
 
 $form_inscription->add('Submit', 'submit')
 				 ->value("Je veux m'inscrire !");
@@ -27,6 +27,7 @@ $form_inscription->add('Submit', 'submit')
 //Pré remplissage (valeurs précédemment entrées)
 $form_inscription->bound($_POST);
 
+<<<<<<< HEAD
 $erreurs_inscription = array();
 
 //	Validation des champs suivant les règles en utilisant les données du tableau $_POST
@@ -118,3 +119,6 @@ else
 {
 	include CHEMIN_VUE.'formulaire_inscription.php';
 }
+=======
+include CHEMIN_VUE.'formulaire_inscription.php';
+>>>>>>> 7d363339d9bc5c5615fa83ca584ba975cf746197

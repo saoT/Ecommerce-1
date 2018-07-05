@@ -12,7 +12,7 @@ session_start();
 <?php
                 try
                 {
-                    $db = new PDO('mysql:host=localhost;dbname=site1','root','');
+                    $db = new PDO('mysql:host=localhost;dbname=site','root','');
                     $db -> setAttribute(PDO::ATTR_ERRMODE , PDO::ERRMODE_EXCEPTION);
                 }
                 catch(Exception $e){
@@ -118,7 +118,7 @@ session_start();
     }
         
 }else{
-    header('location:../index.php');
+    header('location:../indexadmin.php');
 }
 ?>
  
