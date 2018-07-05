@@ -19,7 +19,7 @@ $form_inscription->add('Password', 'mdp')
 				 ->label("Votre mot de passe");
 
 $form_inscription->add('Text', 'adresse')
-				 ->label("L'adresse de votre domicile");
+				 ->label("Votre adresse de livraison");
 
 $form_inscription->add('Submit', 'submit')
 				 ->value("Je veux m'inscrire !");
