@@ -1,3 +1,4 @@
+<!--- injection sql 
 <?php
 
 	//	Include du fichier de config
