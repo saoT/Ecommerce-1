@@ -50,6 +50,7 @@ session_start();
     <h3>Prix</h3>
     <input type="text" name="price"/><br/>
     <input type="submit" name="submit"/>
+    
     </form>
 
 
