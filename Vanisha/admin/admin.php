@@ -8,6 +8,7 @@ session_start();
 
 <a href="?action=add">Ajouter un produit</a>  <!--variable de type get!-->
 <a href="?action=modifyanddelete">Modifier /Supprimer un produit</a>
+<a href='?action=import'> Importer une image</a>
 
 <?php
                 try
@@ -27,6 +28,7 @@ session_start();
           $title=$_POST['title'];
         $description =$_POST['description'];
         $price=$_POST['price'];
+    
           
             if($title&&$description&&$price){
                 
@@ -49,7 +51,10 @@ session_start();
     <textarea type="text" name="description"></textarea> <!--formulaire produit!-->
     <h3>Prix</h3>
     <input type="text" name="price"/><br/>
+    <h3> Importer une image</h3>
+    <input type="file" name="file"/>
     <input type="submit" name="submit"/>
+    
     
     </form>
 
@@ -65,6 +70,7 @@ session_start();
 ?>
 <a href="?action=modify&amp;id=<?php echo $s->id; ?>" > Modifier  </a> 
 <a href="?action=delete&amp;id=<?php echo $s->id; ?>" > X </a> <br/> <br/>
+
 <?php
         }
         
