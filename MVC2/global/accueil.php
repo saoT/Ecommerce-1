@@ -10,14 +10,14 @@
     <!-- The above 4 meta tags *must* come first in the head; any other head content must come *after* these tags -->
 
     <!-- Title  -->
-    <title>E-commerce Mediplants</title>
+    <title>E-commerce Mediplantes</title>
 
     <!-- Favicon  -->
     <link rel="icon" href="../front/templates/img/core-img/favicon.ico">
 
     <!-- Core Style CSS -->
     <link rel="stylesheet" href="../front/templates/css/core-style.css">
-    <link rel="stylesheet" href="../front/templates/scss/style.scss">
+    <link rel="stylesheet" href="../front/templates/css/style.css">
 
 </head>
 
@@ -28,7 +28,7 @@
             <!-- Classy Menu -->
             <nav class="classy-navbar" id="essenceNav">
                 <!-- Logo -->
-                <a class="nav-brand" href="../global/accueil.php"><img src="../front/templates/img/core-img/logo.png" alt=""></a>
+                <a class="nav-brand" href="#"><img src="../front/templates/img/core-img/logo.png" alt=""></a>
                 <!-- Navbar Toggler -->
                 <div class="classy-navbar-toggler">
                     <span class="navbarToggler"><span></span><span></span><span></span></span>
@@ -42,7 +42,7 @@
                     <!-- Nav Start -->
                     <div class="classynav">
                         <ul>
-                            <li><a href="#">Boutique</a>
+                            <li><a href="../global/accueil.php">Boutique</a>
                                 <div class="megamenu">
                                     <ul class="single-mega cn-col-4">
                                        <li class="title">Plantes</li>
@@ -73,16 +73,15 @@
                                     </div>
                                 </div>
                             </li>
-                            <li><a href="#">Pages</a>
+                            <li><a href="../global/accueil.php">Pages</a>
                                 <ul class="dropdown">
                                     <li><a href="../global/accueil.php">Accueil</a></li>
-                                    <li><a href="single-product-details.html">Produits détails</a></li>
                                     <li><a href="../global/allproducts.php">Produits</a></li>
-                                    <li><a href="single-blog.html">Blog</a></li>
+                                    <li><a href="">Blog</a></li> <!--TODO : page blog-->
                                 </ul>
                             </li>
-                            <li><a href="blog.html">S'inscire</a></li>
-                            <li><a href="contact.html">Se connecter</a></li>
+                            <li><a href="../modeles/inscription.php">S'inscrire</a></li> <!--TODO : page d'inscription-->
+                            <li><a href="../modeles/membres.php">Se connecter</a></li>  <!--TODO : page de connexion-->
                         </ul>
                     </div>
                     <!-- Nav End -->
@@ -91,22 +90,22 @@
 
             <!-- Header Meta Data -->
             <div class="header-meta d-flex clearfix justify-content-end">
-                <!-- Search Area -->
+                <!-- TODO : Search Area -->
                 <div class="search-area">
                     <form action="#" method="post">
                         <input type="search" name="search" id="headerSearch" placeholder="Rechercher">
                         <button type="submit"><i class="fa fa-search" aria-hidden="true"></i></button>
                     </form>
                 </div>
-                <!-- Favorite Area -->
+                <!-- TODO : Favorite Area -->
                 <div class="favourite-area">
                     <a href="#"><img src="../front/templates/img/core-img/heart.svg" alt=""></a>
                 </div>
-                <!-- User Login Info -->
+                <!-- TODO : User Login Info -->
                 <div class="user-login-info">
                     <a href="#"><img src="../front/templates/img/core-img/user.svg" alt=""></a>
                 </div>
-                <!-- Cart Area -->
+                <!-- TODO : Cart Area -->
                 <div class="cart-area">
                     <a href="#" id="essenceCartBtn"><img src="../front/templates/img/core-img/bag.svg" alt=""> <span>3</span></a>
                 </div>
@@ -187,7 +186,7 @@
                     <li><span>total:</span> <span>27€</span></li>/
                 </ul>
                 <div class="checkout-btn mt-100">
-                    <a href="checkout.html" class="btn essence-btn">Commander</a>
+                    <a href="#" class="btn essence-btn">Commander</a> <!--TODO : checkout.php-->
                 </div>
             </div>
         </div>
@@ -253,7 +252,7 @@
                             <div class="cta--text">
                                 <h6>-50%</h6>
                                 <h2>Ce sont les soldes, nombreux produits en promotion !</h2>
-                                <a href="#" class="btn essence-btn"></a>
+                                <a href="../global/allproducts.php" class="btn essence-btn">J'y vais!</a>
                             </div>
                         </div>
                     </div>
@@ -458,9 +457,9 @@
                         <!-- Footer Menu -->
                         <div class="footer_menu">
                             <ul>
-                                <li><a href="shop.html">Boutique</a></li>
-                                <li><a href="blog.html">Blog</a></li>
-                                <li><a href="contact.html">Contact</a></li>
+                                <li><a href="../global/accueil.php">Boutique</a></li>
+                                <li><a href="">Blog</a></li>
+                                <li><a href="">Contact</a></li>
                             </ul>
                         </div>
                     </div>

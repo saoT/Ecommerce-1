@@ -13,11 +13,11 @@
     <title>E-commerce Mediplantes</title>
 
     <!-- Favicon  -->
-    <link rel="icon" href="img/core-img/favicon.ico">
+    <link rel="icon" href="../front/templates/img/core-img/favicon.ico">
 
     <!-- Core Style CSS -->
-  <link rel="stylesheet" href="../front/templates/css/core-style.css">
-    <link rel="stylesheet" href="../front/templates/style.css">
+    <link rel="stylesheet" href="../front/templates/css/core-style.css">
+    <link rel="stylesheet" href="../front/templates/css/style.css">
 
 </head>
 
@@ -76,7 +76,6 @@
                             <li><a href="#">Pages</a>
                                 <ul class="dropdown">
                                     <li><a href="index.html">Accueil</a></li>
-                                    <li><a href="single-product-details1.html">Produits détails</a></li>
                                     <li><a href="shop.html">Produits</a></li>
                                     <li><a href="single-blog.html">Blog</a></li>
                                 </ul>
@@ -208,7 +207,6 @@
         <!-- Single Product Description -->
         <div class="single_product_desc clearfix">
             <span>Encens</span>
-            <a href="cart.html">
                 <h2>Oliban du Soudan</h2>
             </a>
             <p class="product-price"><span class="old-price">15.00€</span> 11.00€</p>

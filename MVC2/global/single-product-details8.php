@@ -13,11 +13,11 @@
     <title>E-commerce Mediplantes</title>
 
     <!-- Favicon  -->
-    <link rel="icon" href="img/core-img/favicon.ico">
+    <link rel="icon" href="../front/templates/img/core-img/favicon.ico">
 
     <!-- Core Style CSS -->
     <link rel="stylesheet" href="../front/templates/css/core-style.css">
-    <link rel="stylesheet" href="../front/templates/style.css">
+    <link rel="stylesheet" href="../front/templates/css/style.css">
 
 </head>
 
@@ -208,11 +208,11 @@
         <!-- Single Product Description -->
         <div class="single_product_desc clearfix">
             <span>Encens</span>
-            <a href="cart.html">
+
                 <h2>Gomme d'elemi</h2>
             </a>
             <p class="product-price"><span class="old-price">15.00€</span> 11.00€</p>
-            <p class="product-desc">Description: <br/> 
+            <p class="product-desc">Description: <br/>
 La Gomme Elémi provient des arbres « Canarium « , de la famille des « Burseraceae »,originaires de Manille, du Brésil, du Mexique, des iles Moluques et des Philippines. (Précisément là le « Bursera Simaruba »).
 
 Cet arbre pouvant atteindre jusqu’à 15 mètres de hauteur est un arbre à feuilles caduques , perdant ses feuilles entièrement pour une très courte période en Février ou Mars.

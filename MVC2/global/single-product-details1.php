@@ -13,12 +13,11 @@
     <title>E-commerce Mediplantes</title>
 
     <!-- Favicon  -->
-    <link rel="icon" href="img/core-img/favicon.ico">
+    <link rel="icon" href="../front/templates/img/core-img/favicon.ico">
 
     <!-- Core Style CSS -->
     <link rel="stylesheet" href="../front/templates/css/core-style.css">
-    <link rel="stylesheet" href="../front/templates/style.css">
-
+    <link rel="stylesheet" href="../front/templates/css/style.css">
 </head>
 
 <body>
@@ -75,10 +74,9 @@
                             </li>
                             <li><a href="#">Pages</a>
                                 <ul class="dropdown">
-                                    <li><a href="index.html">Accueil</a></li>
-                                    <li><a href="single-product-details.html">Produits détails</a></li>
+                                    <li><a href="../global/accueil.php">Accueil</a></li>
                                     <li><a href="../global/allproducts.php">Produits</a></li>
-                                    <li><a href="single-blog.html">Blog</a></li>
+                                    <li><a href="">Blog</a></li>
                                 </ul>
                             </li>
                             <li><a href="blog.html">S'inscrire</a></li>
@@ -138,7 +136,7 @@
                         <div class="cart-item-desc">
                           <span class="product-remove"><i class="fa fa-close" aria-hidden="true"></i></span>
                             <span class="badge">Mediplante</span>
-                            <h6>Absynthe en vrac</h6>
+                            <h6>Absinthe en vrac</h6>
                             <p class="size">Quantité: 100g</p>
                             <p class="price">10.00€</p>
                         </div>
@@ -200,16 +198,15 @@
         <!-- Single Product Thumb -->
         <div class="single_product_thumb clearfix">
             <div class="product_thumbnail_slides owl-carousel">
-                <img src="../front/templates/images/plantes/absynth.jpg" alt="">
-                <img src="img/.jpg" alt="">
+                <img src="../front/templates/img/plantes/absynth.jpg" alt="Absinthe">
+                <img src="../front/templates/img/plantes/absynth.jpg" alt="Absinthe">
             </div>
         </div>
 
         <!-- Single Product Description -->
         <div class="single_product_desc clearfix">
             <span>Plante</span>
-            <a href="cart.html">
-                <h2> Absynth</h2>
+                <h2>Absinthe</h2>
             </a>
             <p class="product-price"><span class="old-price">15.00€</span> 11.00€</p>
             <p class="product-desc">Description: L'absinthe est un sous-arbrisseau vivace pouvant atteindre 1 m de haut, à tige dressées rameuse, dont les feuilles alternes aromatiques sont gris verdâtre sur le dessus et presque blanche sur le dessous.

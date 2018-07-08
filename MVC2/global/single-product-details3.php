@@ -17,8 +17,7 @@
 
     <!-- Core Style CSS -->
     <link rel="stylesheet" href="../front/templates/css/core-style.css">
-    <link rel="stylesheet" href="../front/templates/style.css">
-
+    <link rel="stylesheet" href="../front/templates/css/style.css">
 </head>
 
 <body>
@@ -208,7 +207,6 @@
         <!-- Single Product Description -->
         <div class="single_product_desc clearfix">
             <span>Plante</span>
-            <a href="cart.html">
                 <h2>Bardane</h2>
             </a>
             <p class="product-price"><span class="old-price">15.00€</span> 11.00€</p>

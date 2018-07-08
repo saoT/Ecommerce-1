@@ -1,12 +1,13 @@
 <?php
+require_once 'config.php';
 
 try
                 {
-                    $db = new PDO('mysql:host=localhost;dbname=site','root','');
+                    $db = new PDO(SQL_DSN, SQL_USERNAME, SQL_PASSWORD);
                     $db -> setAttribute(PDO::ATTR_ERRMODE , PDO::ERRMODE_EXCEPTION);
                 }
                 catch(Exception $e){
-                    echo'erreurr';
+                    echo 'erreur d\' accès à la bdd';
                     die();
                 }
 
@@ -30,11 +31,11 @@ $select = $db ->prepare("SELECT * FROM products");
     <title>E-commerce Mediplantes</title>
 
     <!-- Favicon  -->
-    <link rel="icon" href="img/core-img/favicon.ico">
+    <link rel="icon" href="../front/templates/img/core-img/favicon.ico">
 
     <!-- Core Style CSS -->
     <link rel="stylesheet" href="../front/templates/css/core-style.css">
-    <link rel="stylesheet" href="../front/templates/style.css">
+    <link rel="stylesheet" href="../front/templates/css/style.css">
 
 </head>
 
@@ -63,27 +64,27 @@ $select = $db ->prepare("SELECT * FROM products");
                                 <div class="megamenu">
                                     <ul class="single-mega cn-col-4">
                                        <li class="title">Plantes</li>
-                                        <li><a href="../front/templates/single-product-details1.html">Absynth</a></li>
-                                        <li><a href="single-product-details2.html">Ashwagandha ginseng</a></li>
-                                        <li><a href="single-product-details3.html">Bardane</a></li>
-                                        <li><a href="single-product-details4.html">Bleuet</a></li>
-                                        <li><a href="single-product-details5.html">Cannelle de chine</a></li>
+                                        <li><a href="single-product-details1.php">Absinthe</a></li>
+                                        <li><a href="single-product-details2.php">Ashwagandha ginseng</a></li>
+                                        <li><a href="single-product-details3.php">Bardane</a></li>
+                                        <li><a href="single-product-details4.php">Bleuet</a></li>
+                                        <li><a href="single-product-details5.php">Cannelle de chine</a></li>
                                     </ul>
                                     <ul class="single-mega cn-col-4">
                                         <li class="title">Encens</li>
-                                        <li><a href="single-product-details6.html">Djaoui noir</a></li>
-                                        <li><a href="single-product-details7.html">Encens Tibetain</a></li>
-                                        <li><a href="single-product-details8.html">Gomme d'elemi</a></li>
-                                        <li><a href="single-product-details9.html">Marie qui defait les noeuds</a></li>
-                                        <li><a href="single-product-details10.html">Oliban du souda</a></li>
+                                        <li><a href="single-product-details6.php">Djaoui noir</a></li>
+                                        <li><a href="single-product-details7.php">Encens Tibetain</a></li>
+                                        <li><a href="single-product-details8.php">Gomme d'elemi</a></li>
+                                        <li><a href="single-product-details9.php">Marie qui defait les noeuds</a></li>
+                                        <li><a href="single-product-details10.php">Oliban du souda</a></li>
                                     </ul>
                                     <ul class="single-mega cn-col-4">
                                         <li class="title">Résines</li>
-                                        <li><a href="single-product-details11.html">Copal</a></li>
-                                        <li><a href="single-product-details12.html">Olibanum</a></li>
-                                        <li><a href="single-product-details13.html">Oliban</a></li>
-                                        <li><a href="single-product-details14.html">Myrrhe</a></li>
-                                        <li><a href="single-product-details15.html">Colophane</a></li>
+                                        <li><a href="single-product-details11.php">Copal</a></li>
+                                        <li><a href="single-product-details12.php">Olibanum</a></li>
+                                        <li><a href="single-product-details13.php">Oliban</a></li>
+                                        <li><a href="single-product-details14.php">Myrrhe</a></li>
+                                        <li><a href="single-product-details15.php">Colophane</a></li>
                                     </ul>
                                     <div class="single-mega cn-col-4">
                                         <img src="img/images/dribbble_juvamed.png" alt="">
@@ -93,13 +94,12 @@ $select = $db ->prepare("SELECT * FROM products");
                             <li><a href="#">Pages</a>
                                 <ul class="dropdown">
                                     <li><a href="../global/accueil.php">Accueil</a></li>
-                                    <li><a href="single-product-details1.html">Produits détails</a></li>
                                     <li><a href="../global/allproducts.php">Produits</a></li>
-                                    <li><a href="single-blog.html">Blog</a></li>
+                                    <li><a href="">Blog</a></li>
                                 </ul>
                             </li>
-                            <li><a href="blog.html">S'inscrire</a></li>
-                            <li><a href="contact.html">Se connecter</a></li>
+                            <li><a href="#">S'inscrire</a></li>
+                            <li><a href="#">Se connecter</a></li>
                         </ul>
                     </div>
                     <!-- Nav End -->
@@ -155,7 +155,7 @@ $select = $db ->prepare("SELECT * FROM products");
                         <div class="cart-item-desc">
                           <span class="product-remove"><i class="fa fa-close" aria-hidden="true"></i></span>
                             <span class="badge">Mediplante</span>
-                            <h6>Absynthe en vrac</h6>
+                            <h6>Absinthe en vrac</h6>
                             <p class="size">Quantité: 100g</p>
                             <p class="price">10.00€</p>
                         </div>
@@ -245,33 +245,33 @@ $select = $db ->prepare("SELECT * FROM products");
                                     <li data-toggle="collapse" data-target="#clothing">
                                         <a href="#">Plantes</a>
                                         <ul class="sub-menu collapse show" id="clothing">
-                                            <li><a href="../front/templates/single-product-details1.html">Absynth</a></li>
-                                            <li><a href="../front/templates/single-product-details2.html">Ashwagandha</a></li>
-                                            <li><a href="../front/templates/single-product-details3.html">Bardane</a></li>
-                                            <li><a href="../front/templates/single-product-details4.html">Bleuet</a></li>
-                                            <li><a href="../front/templates/single-product-details5.html">Cannelle de Chine</a></li>
+                                            <li><a href="single-product-details1.php">Absinthe</a></li>
+                                            <li><a href="single-product-details2.php">Ashwagandha</a></li>
+                                            <li><a href="single-product-details3.php">Bardane</a></li>
+                                            <li><a href="single-product-details4.php">Bleuet</a></li>
+                                            <li><a href="single-product-details5.php">Cannelle de Chine</a></li>
                                         </ul>
                                     </li>
                                     <!-- Single Item -->
                                     <li data-toggle="collapse" data-target="#shoes" class="collapsed">
                                         <a href="#">Encens</a>
                                         <ul class="sub-menu collapse" id="shoes">
-                                            <li><a href="../front/templates/single-product-details6.html">Djaoui noir</a></li>
-                                            <li><a href="../front/templates/single-product-details7.html">Encens tibetain</a></li>
-                                            <li><a href="../front/templates/single-product-details8.html">Gomme d'elemi</a></li>
-                                            <li><a href="../front/templates/single-product-details9.html">Marie qui defait des noeuds</a></li>
-                                            <li><a href="../front/templates/single-product-details10.html">Oliban du soudan</a></li>
+                                            <li><a href="single-product-details6.php">Djaoui noir</a></li>
+                                            <li><a href="single-product-details7.php">Encens tibetain</a></li>
+                                            <li><a href="single-product-details8.php">Gomme d'elemi</a></li>
+                                            <li><a href="single-product-details9.php">Marie qui defait des noeuds</a></li>
+                                            <li><a href="single-product-details10.php">Oliban du soudan</a></li>
                                         </ul>
                                     </li>
                                     <!-- Single Item -->
                                     <li data-toggle="collapse" data-target="#accessories" class="collapsed">
                                         <a href="#">Resines</a>
                                         <ul class="sub-menu collapse" id="accessories">
-                                            <li><a href="../front/templates/single-product-details11.html">Copal</a></li>
-                                            <li><a href="../front/templates/single-product-details12.html">Olibanum</a></li>
-                                            <li><a href="../front/templates/single-product-details13.html">Oliban</a></li>
-                                            <li><a href="../front/templates/single-product-details14.html">Myrrhe</a></li>
-                                            <li><a href="../front/templates/single-product-details15.html">Colophane</a></li>
+                                            <li><a href="single-product-details11.php">Copal</a></li>
+                                            <li><a href="single-product-details12.php">Olibanum</a></li>
+                                            <li><a href="single-product-details13.php">Oliban</a></li>
+                                            <li><a href="single-product-details14.php">Myrrhe</a></li>
+                                            <li><a href="single-product-details15.php">Colophane</a></li>
                                         </ul>
                                     </li>
                                 </ul>
@@ -362,7 +362,7 @@ $select = $db ->prepare("SELECT * FROM products");
                         </div>
 
                         <div class="row">
-                            <?php 
+                            <?php
                             while ($s=$select->fetch(PDO::FETCH_OBJ)){
                             echo '<!-- Single Product -->
                             <div class="col-12 col-sm-6 col-lg-4">
@@ -402,7 +402,7 @@ $select = $db ->prepare("SELECT * FROM products");
                                 </div>
                             </div>';
                              }
-                ?>            
+                ?>
 
                         </div>
                     </div>
