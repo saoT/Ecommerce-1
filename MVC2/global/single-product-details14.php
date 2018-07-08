@@ -16,8 +16,8 @@
     <link rel="icon" href="img/core-img/favicon.ico">
 
     <!-- Core Style CSS -->
-    <link rel="stylesheet" href="css/core-style.css">
-    <link rel="stylesheet" href="style.css">
+   <link rel="stylesheet" href="../front/templates/css/core-style.css">
+    <link rel="stylesheet" href="../front/templates/style.css">
 
 </head>
 
@@ -28,7 +28,7 @@
             <!-- Classy Menu -->
             <nav class="classy-navbar" id="essenceNav">
                 <!-- Logo -->
-                <a class="nav-brand" href="index.html"><img src="img/core-img/logo.png" alt=""></a>
+                <a class="nav-brand" href="index.html"><img src="../front/templates/img/core-img/logo.png" alt=""></a>
                 <!-- Navbar Toggler -->
                 <div class="classy-navbar-toggler">
                     <span class="navbarToggler"><span></span><span></span><span></span></span>
@@ -45,28 +45,28 @@
                             <li><a href="#">Boutique</a>
                                 <div class="megamenu">
                                     <ul class="single-mega cn-col-4">
-                                        <li class="title">Plantes</li>
-                                        <li><a href="single-product-details1.html">template fiche produit à remplir</a></li>
-                                        <li><a href="single-product-details2.html">plante2</a></li>
-                                        <li><a href="single-product-details3.html">plante3</a></li>
-                                        <li><a href="single-product-details4.html">plante4</a></li>
-                                        <li><a href="single-product-details5.html">plante4</a></li>
+                                       <li class="title">Plantes</li>
+                                        <li><a href="../global/single-product-details1.php">Absynth</a></li>
+                                        <li><a href="../global/single-product-details2.php">Ashwagandha ginseng</a></li>
+                                        <li><a href="../global/single-product-details3.php">Bardane</a></li>
+                                        <li><a href="../global/single-product-details4.php">Bleuet</a></li>
+                                        <li><a href="../global/single-product-details5.php">Cannelle de chine</a></li>
                                     </ul>
                                     <ul class="single-mega cn-col-4">
                                         <li class="title">Encens</li>
-                                        <li><a href="single-product-details6.html">Encens1</a></li>
-                                        <li><a href="single-product-details7.html">Encens2</a></li>
-                                        <li><a href="single-product-details8.html">Encens3</a></li>
-                                        <li><a href="single-product-details9.html">Encens4</a></li>
-                                        <li><a href="single-product-details10.html">Encens5</a></li>
+                                        <li><a href="../global/single-product-details6.php">Djaoui noir</a></li>
+                                        <li><a href="../global/single-product-details7.php">Encens Tibetain</a></li>
+                                        <li><a href="../global/single-product-details8.php">Gomme d'elemi</a></li>
+                                        <li><a href="../global//single-product-details9.php">Marie qui defait les noeuds</a></li>
+                                        <li><a href="../global/single-product-details10.php">Oliban du souda</a></li>
                                     </ul>
                                     <ul class="single-mega cn-col-4">
                                         <li class="title">Résines</li>
-                                        <li><a href="single-product-details11.html">Résine1</a></li>
-                                        <li><a href="single-product-details12.html">Résine2</a></li>
-                                        <li><a href="single-product-details13.html">Résine3</a></li>
-                                        <li><a href="single-product-details14.html">Résine4</a></li>
-                                        <li><a href="single-product-details15.html">Résine5</a></li>
+                                        <li><a href="../global/single-product-details11.php">Copal</a></li>
+                                        <li><a href="../global/single-product-details12.php">Olibanum</a></li>
+                                        <li><a href="../global/single-product-details13.php">Oliban</a></li>
+                                        <li><a href="../global/single-product-details14.php">Myrrhe</a></li>
+                                        <li><a href="../global/single-product-details15.php">Colophane</a></li>
                                     </ul>
                                     <div class="single-mega cn-col-4">
                                         <img src="img/images/dribbble_juvamed.png" alt="">
@@ -108,7 +108,7 @@
                 </div>
                 <!-- Cart Area -->
                 <div class="cart-area">
-                    <a href="#" id="essenceCartBtn"><img src="img/core-img/bag.svg" alt=""> <span>3</span></a>
+                    <a href="#" id="essenceCartBtn"><img src="../front/templates/img/core-img/bag.svg" alt=""> <span>3</span></a>
                 </div>
             </div>
 
@@ -123,7 +123,7 @@
 
         <!-- Cart Button -->
         <div class="cart-button">
-            <a href="#" id="rightSideCart"><img src="img/core-img/bag.svg" alt=""> <span>3</span></a>
+            <a href="#" id="rightSideCart"><img src="../front/templates/img/core-img/bag.svg" alt=""> <span>3</span></a>
         </div>
 
         <div class="cart-content d-flex">
@@ -200,19 +200,21 @@
         <!-- Single Product Thumb -->
         <div class="single_product_thumb clearfix">
             <div class="product_thumbnail_slides owl-carousel">
-                <img src="img/images/AloeVera.jpg" alt="">
+                <img src="../front/templates/images/resine/plante_resine_myrrhe.jpg" alt="">
                 <img src="img/.jpg" alt="">
             </div>
         </div>
 
         <!-- Single Product Description -->
         <div class="single_product_desc clearfix">
-            <span>Plante</span>
+            <span>Resine</span>
             <a href="cart.html">
-                <h2>Nom plante : AloeVera</h2>
+                <h2>Myrrhe</h2>
             </a>
             <p class="product-price"><span class="old-price">15.00€</span> 11.00€</p>
-            <p class="product-desc">Description plante : à remplir</p>
+            <p class="product-desc">Description: <br/>L’odeur de la Myrrhe est chaude, agréable et envoûtante.
+Très présente dans de nombreuses mythologies et religions, la Myrrhe est connue pour être relaxante et calmante. Elle favorise aussi l'ouverture au monde extérieur et la réceptivité.
+Elle est également connue comme purifiant atmosphérique et des voies respiratoires. </p>
 
             <!-- Form -->
             <form class="cart-form clearfix" method="post">
@@ -318,19 +320,18 @@
     </footer>
     <!-- ##### Footer Area End ##### -->
 
-    <!-- jQuery (Necessary for All JavaScript Plugins) -->
-    <script src="js/jquery/jquery-2.2.4.min.js"></script>
+     <!-- jQuery (Necessary for All JavaScript Plugins) -->
+    <script src="../front/templates/js/jquery/jquery-2.2.4.min.js"></script>
     <!-- Popper js -->
-    <script src="js/popper.min.js"></script>
+    <script src="../front/templates/js/popper.min.js"></script>
     <!-- Bootstrap js -->
-    <script src="js/bootstrap.min.js"></script>
+    <script src="../front/templates/js/bootstrap.min.js"></script>
     <!-- Plugins js -->
-    <script src="js/plugins.js"></script>
+    <script src="../front/templates/js/plugins.js"></script>
     <!-- Classy Nav js -->
-    <script src="js/classy-nav.min.js"></script>
+    <script src="../front/templates/js/classy-nav.min.js"></script>
     <!-- Active js -->
-    <script src="js/active.js"></script>
-
+    <script src="../front/templates/js/active.js"></script>
 </body>
 
 </html>

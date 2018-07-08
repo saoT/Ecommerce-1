@@ -19,7 +19,7 @@ $form_inscription->add('Password', 'mdp_verif')
 				 ->label("Confirmez votre mot de passe");
 
 $form_inscription->add('Text', 'adresse')
-				 ->label("Votre adresse de livraison");
+				 ->label("L'adresse de votre domicile");
 
 $form_inscription->add('Submit', 'submit')
 				 ->value("Je veux m'inscrire !");
@@ -28,6 +28,9 @@ $form_inscription->add('Submit', 'submit')
 $form_inscription->bound($_POST);
 
 <<<<<<< HEAD
+
+=======
+>>>>>>> 57b04155e5bd47f9e0e87d27a17071adbb30ef99
 $erreurs_inscription = array();
 
 //	Validation des champs suivant les règles en utilisant les données du tableau $_POST
@@ -60,17 +63,17 @@ if ($form_inscription->is_valid($_POST))
 			$id_utilisateur = (int) $id_utilisateur;
 
 			//	Préparation du mail
-			$message_mail = '<html><head></head><body>
-			<p>Merci de vous être inscrit sur notre site !</p>
-			<p>Veuillez valider votre inscription en cliquant sur <a href="'.$_SERVER['PHP_SELF'].'?module=membres&amp;action=valider_compte&amp;hash='.$hash_validation.'">ce lien</a> pour activer votre compte !</p>
-			</body></html>';
+			//	$message_mail = '<html><head></head><body>
+			//	<p>Merci de vous être inscrit sur notre site !</p>
+			//	<p>Veuillez valider votre inscription en cliquant sur <a href="'.$_SERVER['PHP_SELF'].'?module=membres&amp;action=valider_compte&amp;hash='.$hash_validation.'">ce lien</a> pour activer votre compte !</p>
+			//	</body></html>';
 
-			$headers_mail = 'MIME-Version: 1.0'."\r\n";
-			$headers_mail.=	'Content-type: text/html; charset=utf-8'."\r\n";
-			$headers_mail.= 'From: "Mediplantes" <contact@mediplantes.com>'."\r\n";
+			//	$headers_mail = 'MIME-Version: 1.0'."\r\n";
+			//	$headers_mail.=	'Content-type: text/html; charset=utf-8'."\r\n";
+			//	$headers_mail.= 'From: "Mediplantes" <contact@mediplantes.com>'."\r\n";
 
 			//	Envoi du mail
-			mail($form_inscription->get_cleaned_data('email'), 'Inscription sur Mediplantes', $message_mail, $headers_mail);
+			//	mail($form_inscription->get_cleaned_data('email'), 'Inscription sur Mediplantes', $message_mail, $headers_mail);
 	
 
 		//	Affichage de la confirmation de l'inscription
@@ -87,7 +90,7 @@ if ($form_inscription->is_valid($_POST))
 			if(23000 == $erreur[0])
 			{
 				preg_match("`Duplicate entry '(.+)' for key \d+`is", $erreur[2], $valeur_probleme);
-				$valeur_probleme = $valeur_probleme[1];
+				$valeur_probleme = $valeur_probleme[0];
 
 				if ($nom == $valeur_probleme)
 				{
@@ -119,6 +122,9 @@ else
 {
 	include CHEMIN_VUE.'formulaire_inscription.php';
 }
+<<<<<<< HEAD
 =======
 include CHEMIN_VUE.'formulaire_inscription.php';
 >>>>>>> 7d363339d9bc5c5615fa83ca584ba975cf746197
+=======
+>>>>>>> 57b04155e5bd47f9e0e87d27a17071adbb30ef99

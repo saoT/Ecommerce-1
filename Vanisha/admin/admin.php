@@ -8,12 +8,12 @@ session_start();
 
 <a href="?action=add">Ajouter un produit</a>  <!--variable de type get!-->
 <a href="?action=modifyanddelete">Modifier /Supprimer un produit</a>
-
+<a href='?action=import'> Importer une image</a>
 
 <?php
                 try
                 {
-                    $db = new PDO('mysql:host=localhost;dbname=site','root','');
+                    $db = new PDO('mysql:host=localhost;dbname=site1','root','');
                     $db -> setAttribute(PDO::ATTR_ERRMODE , PDO::ERRMODE_EXCEPTION);
                 }
                 catch(Exception $e){
@@ -28,6 +28,7 @@ session_start();
           $title=$_POST['title'];
         $description =$_POST['description'];
         $price=$_POST['price'];
+    
           
             if($title&&$description&&$price){
                 
@@ -38,8 +39,6 @@ session_start();
                 echo 'Veuillez remplir';
             }
         }
-
-
 
         ?>
 
@@ -53,8 +52,10 @@ session_start();
     <h3>Prix</h3>
     <input type="text" name="price"/><br/>
     <h3> Importer une image</h3>
-    <input type="file" name="file"/><br/><br/>
+    <input type="file" name="file"/>
     <input type="submit" name="submit"/>
+    
+    
     </form>
 
 
@@ -69,6 +70,7 @@ session_start();
 ?>
 <a href="?action=modify&amp;id=<?php echo $s->id; ?>" > Modifier  </a> 
 <a href="?action=delete&amp;id=<?php echo $s->id; ?>" > X </a> <br/> <br/>
+
 <?php
         }
         
@@ -123,7 +125,7 @@ session_start();
     }
         
 }else{
-    header('location:indexadmin.php');
+    header('location:../index.php');
 }
 ?>
  

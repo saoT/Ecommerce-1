@@ -16,8 +16,8 @@
     <link rel="icon" href="img/core-img/favicon.ico">
 
     <!-- Core Style CSS -->
-    <link rel="stylesheet" href="css/core-style.css">
-    <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="../front/templates/css/core-style.css">
+    <link rel="stylesheet" href="../front/templates/style.css">
 
 </head>
 
@@ -42,31 +42,31 @@
                     <!-- Nav Start -->
                     <div class="classynav">
                         <ul>
-                            <li><a href="#">Boutique</a>
+                           <li><a href="#">Boutique</a>
                                 <div class="megamenu">
                                     <ul class="single-mega cn-col-4">
-                                        <li class="title">Plantes</li>
-                                        <li><a href="single-product-details1.html">template fiche produit à remplir</a></li>
-                                        <li><a href="single-product-details2.html">plante2</a></li>
-                                        <li><a href="single-product-details3.html">plante3</a></li>
-                                        <li><a href="single-product-details4.html">plante4</a></li>
-                                        <li><a href="single-product-details5.html">plante4</a></li>
+                                       <li class="title">Plantes</li>
+                                        <li><a href="../global/single-product-details1.php">Absynth</a></li>
+                                        <li><a href="../global/single-product-details2.php">Ashwagandha ginseng</a></li>
+                                        <li><a href="../global/single-product-details3.php">Bardane</a></li>
+                                        <li><a href="../global/single-product-details4.php">Bleuet</a></li>
+                                        <li><a href="../global/single-product-details5.php">Cannelle de chine</a></li>
                                     </ul>
                                     <ul class="single-mega cn-col-4">
                                         <li class="title">Encens</li>
-                                        <li><a href="single-product-details6.html">Encens1</a></li>
-                                        <li><a href="single-product-details7.html">Encens2</a></li>
-                                        <li><a href="single-product-details8.html">Encens3</a></li>
-                                        <li><a href="single-product-details9.html">Encens4</a></li>
-                                        <li><a href="single-product-details10.html">Encens5</a></li>
+                                        <li><a href="../global/single-product-details6.php">Djaoui noir</a></li>
+                                        <li><a href="../global/single-product-details7.php">Encens Tibetain</a></li>
+                                        <li><a href="../global/single-product-details8.php">Gomme d'elemi</a></li>
+                                        <li><a href="../global//single-product-details9.php">Marie qui defait les noeuds</a></li>
+                                        <li><a href="../global/single-product-details10.php">Oliban du souda</a></li>
                                     </ul>
                                     <ul class="single-mega cn-col-4">
                                         <li class="title">Résines</li>
-                                        <li><a href="single-product-details11.html">Résine1</a></li>
-                                        <li><a href="single-product-details12.html">Résine2</a></li>
-                                        <li><a href="single-product-details13.html">Résine3</a></li>
-                                        <li><a href="single-product-details14.html">Résine4</a></li>
-                                        <li><a href="single-product-details15.html">Résine5</a></li>
+                                        <li><a href="../global/single-product-details11.php">Copal</a></li>
+                                        <li><a href="../global/single-product-details12.php">Olibanum</a></li>
+                                        <li><a href="../global/single-product-details13.php">Oliban</a></li>
+                                        <li><a href="../global/single-product-details14.php">Myrrhe</a></li>
+                                        <li><a href="../global/single-product-details15.php">Colophane</a></li>
                                     </ul>
                                     <div class="single-mega cn-col-4">
                                         <img src="img/images/dribbble_juvamed.png" alt="">
@@ -200,7 +200,7 @@
         <!-- Single Product Thumb -->
         <div class="single_product_thumb clearfix">
             <div class="product_thumbnail_slides owl-carousel">
-                <img src="img/images/AloeVera.jpg" alt="">
+                <img src="../templates/images/plantes/cannelle-de-chine-bio-ecorce-morceaux-3-5-mm.jpg" alt="">
                 <img src="img/.jpg" alt="">
             </div>
         </div>
@@ -209,10 +209,22 @@
         <div class="single_product_desc clearfix">
             <span>Plante</span>
             <a href="cart.html">
-                <h2>Nom plante : AloeVera</h2>
+                <h2>Cannelle de Chine</h2>
             </a>
             <p class="product-price"><span class="old-price">15.00€</span> 11.00€</p>
-            <p class="product-desc">Description plante : à remplir</p>
+            <p class="product-desc">Description: Le cannelier est un arbre dont la tige, droite, qui peut atteindre 8 à 10 m, est couverte d'une écorce grisâtre en dehors, rougeâtre en dedans.
+
+Les feuilles, alternes, ou irrégulièrement opposées, courtement pétiolées, sont entières et coriaces.
+
+Les fleurs, blanc jaunâtre et petites, forment des panicules axillaires.
+
+Le fruit, à pulpe verdâtre, est ovoïde. 
+
+La famille des canneliers est nombreuse, le principal et meilleur vient du sri lanka (Ceylan) où il croit dans des espaces considérables. On en trouve en Chine, à Cayenne, aux Seychelles, etc.
+
+Deux récoltes sont faites dans l'année.
+
+On coupe les rameaux de plus de 3 ans, on les fend longitidinalement pour séparer l'écorce - la cannelle- du bois, on la roule puis elle est mise à sécher au soleil.</p>
 
             <!-- Form -->
             <form class="cart-form clearfix" method="post">
@@ -318,18 +330,18 @@
     </footer>
     <!-- ##### Footer Area End ##### -->
 
-    <!-- jQuery (Necessary for All JavaScript Plugins) -->
-    <script src="js/jquery/jquery-2.2.4.min.js"></script>
+  <!-- jQuery (Necessary for All JavaScript Plugins) -->
+    <script src="../front/templates/js/jquery/jquery-2.2.4.min.js"></script>
     <!-- Popper js -->
-    <script src="js/popper.min.js"></script>
+    <script src="../front/templates/js/popper.min.js"></script>
     <!-- Bootstrap js -->
-    <script src="js/bootstrap.min.js"></script>
+    <script src="../front/templates/js/bootstrap.min.js"></script>
     <!-- Plugins js -->
-    <script src="js/plugins.js"></script>
+    <script src="../front/templates/js/plugins.js"></script>
     <!-- Classy Nav js -->
-    <script src="js/classy-nav.min.js"></script>
+    <script src="../front/templates/js/classy-nav.min.js"></script>
     <!-- Active js -->
-    <script src="js/active.js"></script>
+    <script src="../front/templates/js/active.js"></script>
 
 </body>
 

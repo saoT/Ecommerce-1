@@ -28,7 +28,7 @@
             <!-- Classy Menu -->
             <nav class="classy-navbar" id="essenceNav">
                 <!-- Logo -->
-                <a class="nav-brand" href="index.html"><img src="../front/templates/img/core-img/logo.png" alt=""></a>
+                <a class="nav-brand" href="../global/accueil.php"><img src="../front/templates/img/core-img/logo.png" alt=""></a>
                 <!-- Navbar Toggler -->
                 <div class="classy-navbar-toggler">
                     <span class="navbarToggler"><span></span><span></span><span></span></span>
@@ -45,28 +45,28 @@
                             <li><a href="#">Boutique</a>
                                 <div class="megamenu">
                                     <ul class="single-mega cn-col-4">
-                                        <li class="title">Plantes</li>
-                                        <li><a href="shop.html">plante1</a></li>
-                                        <li><a href="shop.html">plante2</a></li>
-                                        <li><a href="shop.html">plante3</a></li>
-                                        <li><a href="shop.html">plante4</a></li>
-                                        <li><a href="shop.html">plante4</a></li>
+                                       <li class="title">Plantes</li>
+                                        <li><a href="../global/single-product-details1.php">Absynth</a></li>
+                                        <li><a href="../global/single-product-details2.php">Ashwagandha ginseng</a></li>
+                                        <li><a href="../global/single-product-details3.php">Bardane</a></li>
+                                        <li><a href="../global/single-product-details4.php">Bleuet</a></li>
+                                        <li><a href="../global/single-product-details5.php">Cannelle de chine</a></li>
                                     </ul>
                                     <ul class="single-mega cn-col-4">
                                         <li class="title">Encens</li>
-                                        <li><a href="shop.html">Encens1</a></li>
-                                        <li><a href="shop.html">Encens2</a></li>
-                                        <li><a href="shop.html">Encens3</a></li>
-                                        <li><a href="shop.html">Encens4</a></li>
-                                        <li><a href="shop.html">Encens5</a></li>
+                                        <li><a href="../global/single-product-details6.php">Djaoui noir</a></li>
+                                        <li><a href="../global/single-product-details7.php">Encens Tibetain</a></li>
+                                        <li><a href="../global/single-product-details8.php">Gomme d'elemi</a></li>
+                                        <li><a href="../global//single-product-details9.php">Marie qui defait les noeuds</a></li>
+                                        <li><a href="../global/single-product-details10.php">Oliban du souda</a></li>
                                     </ul>
                                     <ul class="single-mega cn-col-4">
                                         <li class="title">Résines</li>
-                                        <li><a href="shop.html">Résine1</a></li>
-                                        <li><a href="shop.html">Résine2</a></li>
-                                        <li><a href="shop.html">Résine3</a></li>
-                                        <li><a href="shop.html">Résine4</a></li>
-                                        <li><a href="shop.html">Résine5</a></li>
+                                        <li><a href="../global/single-product-details11.php">Copal</a></li>
+                                        <li><a href="../global/single-product-details12.php">Olibanum</a></li>
+                                        <li><a href="../global/single-product-details13.php">Oliban</a></li>
+                                        <li><a href="../global/single-product-details14.php">Myrrhe</a></li>
+                                        <li><a href="../global/single-product-details15.php">Colophane</a></li>
                                     </ul>
                                     <div class="single-mega cn-col-4">
                                         <img src="../front/templates/img/images/dribbble_juvamed.png" alt="">
@@ -75,9 +75,9 @@
                             </li>
                             <li><a href="#">Pages</a>
                                 <ul class="dropdown">
-                                    <li><a href="index.html">Accueil</a></li>
+                                    <li><a href="../global/accueil.php">Accueil</a></li>
                                     <li><a href="single-product-details.html">Produits détails</a></li>
-                                    <li><a href="shop.html">Produits</a></li>
+                                    <li><a href="../global/allproducts.php">Produits</a></li>
                                     <li><a href="single-blog.html">Blog</a></li>
                                 </ul>
                             </li>
@@ -202,7 +202,7 @@
                     <div class="hero-content">
                         <h2>Mediplantes</h2>
                         <h6>Plantes thérapeutiques naturelles</h6><br><br />
-                        <a href="#" class="btn essence-btn">Voir nos produits</a>
+                        <a href="../global/allproducts.php" class="btn essence-btn">Voir nos produits</a>
                     </div>
                 </div>
             </div>
@@ -218,7 +218,7 @@
                 <div class="col-12 col-sm-6 col-md-4">
                     <div class="single_catagory_area d-flex align-items-center justify-content-center bg-img" style="background-image: url(../front/templates/img/images/AloeVera.jpg);">
                         <div class="catagory-content">
-                            <a href="#">Plantes</a>
+                            <a href="../global/allproducts.php">Plantes</a>
                         </div>
                     </div>
                 </div>
@@ -226,7 +226,7 @@
                 <div class="col-12 col-sm-6 col-md-4">
                     <div class="single_catagory_area d-flex align-items-center justify-content-center bg-img" style="background-image: url(../front/templates/img/images/encens-a-bruler-djaoui-noir.jpg);">
                         <div class="catagory-content">
-                            <a href="#">Encens</a>
+                            <a href="../global/allproducts.php">Encens</a>
                         </div>
                     </div>
                 </div>
@@ -234,7 +234,7 @@
                 <div class="col-12 col-sm-6 col-md-4">
                     <div class="single_catagory_area d-flex align-items-center justify-content-center bg-img" style="background-image: url(../front/templates/img/images/resine.jpg);">
                         <div class="catagory-content">
-                            <a href="#">Résines</a>
+                            <a href="../global/allproducts.php">Résines</a>
                         </div>
                     </div>
                 </div>
