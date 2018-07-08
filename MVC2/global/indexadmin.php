@@ -15,7 +15,7 @@ if(isset($_POST['submit'])){
    if($username==$user&&$password==$password_defini){
        
        $_SESSION['username']=$username;
-       header('Location:admin.php');
+       header('Location:../global/admin.php');
        
    }else{
         echo"idd errone";

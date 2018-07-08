@@ -16,8 +16,8 @@
     <link rel="icon" href="img/core-img/favicon.ico">
 
     <!-- Core Style CSS -->
-    <link rel="stylesheet" href="css/core-style.css">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="../front/templates/css/core-style.css">
+    <link rel="stylesheet" href="../front/templates/style.css">
 
 </head>
 
@@ -28,7 +28,7 @@
             <!-- Classy Menu -->
             <nav class="classy-navbar" id="essenceNav">
                 <!-- Logo -->
-                <a class="nav-brand" href=""><img src="img/core-img/logo.png" alt=""></a>
+                <a class="nav-brand" href="index.html"><img src="img/core-img/logo.png" alt=""></a>
                 <!-- Navbar Toggler -->
                 <div class="classy-navbar-toggler">
                     <span class="navbarToggler"><span></span><span></span><span></span></span>
@@ -45,28 +45,28 @@
                             <li><a href="#">Boutique</a>
                                 <div class="megamenu">
                                     <ul class="single-mega cn-col-4">
-                                        <li class="title">Plantes</li>
-                                        <li><a href="single-product-details1.html">template fiche produit à remplir</a></li>
-                                        <li><a href="single-product-details2.html">plante2</a></li>
-                                        <li><a href="single-product-details3.html">plante3</a></li>
-                                        <li><a href="single-product-details4.html">plante4</a></li>
-                                        <li><a href="single-product-details5.html">plante4</a></li>
+                                       <li class="title">Plantes</li>
+                                        <li><a href="../global/single-product-details1.php">Absynth</a></li>
+                                        <li><a href="../global/single-product-details2.php">Ashwagandha ginseng</a></li>
+                                        <li><a href="../global/single-product-details3.php">Bardane</a></li>
+                                        <li><a href="../global/single-product-details4.php">Bleuet</a></li>
+                                        <li><a href="../global/single-product-details5.php">Cannelle de chine</a></li>
                                     </ul>
                                     <ul class="single-mega cn-col-4">
                                         <li class="title">Encens</li>
-                                        <li><a href="single-product-details6.html">Encens1</a></li>
-                                        <li><a href="single-product-details7.html">Encens2</a></li>
-                                        <li><a href="single-product-details8.html">Encens3</a></li>
-                                        <li><a href="single-product-details9.html">Encens4</a></li>
-                                        <li><a href="single-product-details10.html">Encens5</a></li>
+                                        <li><a href="../global/single-product-details6.php">Djaoui noir</a></li>
+                                        <li><a href="../global/single-product-details7.php">Encens Tibetain</a></li>
+                                        <li><a href="../global/single-product-details8.php">Gomme d'elemi</a></li>
+                                        <li><a href="../global//single-product-details9.php">Marie qui defait les noeuds</a></li>
+                                        <li><a href="../global/single-product-details10.php">Oliban du souda</a></li>
                                     </ul>
                                     <ul class="single-mega cn-col-4">
                                         <li class="title">Résines</li>
-                                        <li><a href="single-product-details11.html">Résine1</a></li>
-                                        <li><a href="single-product-details12.html">Résine2</a></li>
-                                        <li><a href="single-product-details13.html">Résine3</a></li>
-                                        <li><a href="single-product-details14.html">Résine4</a></li>
-                                        <li><a href="single-product-details15.html">Résine5</a></li>
+                                        <li><a href="../global/single-product-details11.php">Copal</a></li>
+                                        <li><a href="../global/single-product-details12.php">Olibanum</a></li>
+                                        <li><a href="../global/single-product-details13.php">Oliban</a></li>
+                                        <li><a href="../global/single-product-details14.php">Myrrhe</a></li>
+                                        <li><a href="../global/single-product-details15.php">Colophane</a></li>
                                     </ul>
                                     <div class="single-mega cn-col-4">
                                         <img src="img/images/dribbble_juvamed.png" alt="">
@@ -76,8 +76,8 @@
                             <li><a href="#">Pages</a>
                                 <ul class="dropdown">
                                     <li><a href="index.html">Accueil</a></li>
-                                    <li><a href="single-product-details1.html">Fiche produit</a></li>
-                                    <li><a href="shop.html">Produits</a></li>
+                                    <li><a href="single-product-details.html">Produits détails</a></li>
+                                    <li><a href="../global/allproducts.php">Produits</a></li>
                                     <li><a href="single-blog.html">Blog</a></li>
                                 </ul>
                             </li>
@@ -100,15 +100,15 @@
                 </div>
                 <!-- Favorite Area -->
                 <div class="favourite-area">
-                    <a href="#"><img src="img/core-img/heart.svg" alt=""></a>
+                    <a href="#"><img src="../front/templates/img/core-img/heart.svg" alt=""></a>
                 </div>
                 <!-- User Login Info -->
                 <div class="user-login-info">
-                    <a href="#"><img src="img/core-img/user.svg" alt=""></a>
+                    <a href="#"><img src="../front/templates/img/core-img/user.svg" alt=""></a>
                 </div>
                 <!-- Cart Area -->
                 <div class="cart-area">
-                    <a href="#" id="essenceCartBtn"><img src="img/core-img/bag.svg" alt=""> <span>3</span></a>
+                    <a href="#" id="essenceCartBtn"><img src="../front/templates/img/core-img/bag.svg" alt=""> <span>3</span></a>
                 </div>
             </div>
 
@@ -123,7 +123,7 @@
 
         <!-- Cart Button -->
         <div class="cart-button">
-            <a href="#" id="rightSideCart"><img src="img/core-img/bag.svg" alt=""> <span>3</span></a>
+            <a href="#" id="rightSideCart"><img src="../front/templates/img/core-img/bag.svg" alt=""> <span>3</span></a>
         </div>
 
         <div class="cart-content d-flex">
@@ -133,7 +133,7 @@
                 <!-- Single Cart Item -->
                 <div class="single-cart-item">
                     <a href="#" class="product-image">
-                        <img src="img/images/absynth.jpg" class="cart-thumb" alt="">
+                        <img src="../front/templates/img/images/absynth.jpg" class="cart-thumb" alt="">
                         <!-- Cart Item Desc -->
                         <div class="cart-item-desc">
                           <span class="product-remove"><i class="fa fa-close" aria-hidden="true"></i></span>
@@ -148,7 +148,7 @@
                 <!-- Single Cart Item -->
                 <div class="single-cart-item">
                     <a href="#" class="product-image">
-                        <img src="img/images/bleuet-petales-bio.jpg" class="cart-thumb" alt="">
+                        <img src="../front/templates/img/images/bleuet-petales-bio.jpg" class="cart-thumb" alt="">
                         <!-- Cart Item Desc -->
                         <div class="cart-item-desc">
                           <span class="product-remove"><i class="fa fa-close" aria-hidden="true"></i></span>
@@ -163,7 +163,7 @@
                 <!-- Single Cart Item -->
                 <div class="single-cart-item">
                     <a href="#" class="product-image">
-                        <img src="img/images/resine.jpg" class="cart-thumb" alt="">
+                        <img src="../front/templates/img/images/resine.jpg" class="cart-thumb" alt="">
                         <!-- Cart Item Desc -->
                         <div class="cart-item-desc">
                           <span class="product-remove"><i class="fa fa-close" aria-hidden="true"></i></span>
@@ -194,68 +194,57 @@
     </div>
     <!-- ##### Right Side Cart End ##### -->
 
-    <!-- ##### Blog Wrapper Area Start ##### -->
-    <div class="single-blog-wrapper">
+    <!-- ##### Single Product Details Area Start ##### -->
+    <section class="single_product_details_area d-flex align-items-center">
 
-        <!-- Single Blog Post Thumb -->
-        <div class="single-blog-post-thumb">
-            <img src="img/images/dribbble_juvamed.png" alt="">
+        <!-- Single Product Thumb -->
+        <div class="single_product_thumb clearfix">
+            <div class="product_thumbnail_slides owl-carousel">
+                <img src="../front/templates/images/plantes/absynth.jpg" alt="">
+                <img src="img/.jpg" alt="">
+            </div>
         </div>
 
-        <!-- Single Blog Content Wrap -->
-        <div class="single-blog-content-wrapper d-flex">
+        <!-- Single Product Description -->
+        <div class="single_product_desc clearfix">
+            <span>Plante</span>
+            <a href="cart.html">
+                <h2> Absynth</h2>
+            </a>
+            <p class="product-price"><span class="old-price">15.00€</span> 11.00€</p>
+            <p class="product-desc">Description: L'absinthe est un sous-arbrisseau vivace pouvant atteindre 1 m de haut, à tige dressées rameuse, dont les feuilles alternes aromatiques sont gris verdâtre sur le dessus et presque blanche sur le dessous.
 
-            <!-- Blog Content -->
-            <div class="single-blog--text">
-                <h2>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corporis perferendis rem accusantium ducimus animi nesciunt expedita omnis aut quas molestias!</h2>
-                <p>Mauris viverra cursus ante laoreet eleifend. Donec vel fringilla ante. Aenean finibus velit id urna vehicula, nec maximus est sollicitudin. Praesent at tempus lectus, eleifend blandit felis. Fusce augue arcu, consequat a nisl aliquet, consectetur elementum turpis. Donec iaculis lobortis nisl, et viverra risus imperdiet eu. Etiam mollis posuere elit non sagittis. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc quis arcu a magna sodales venenatis. Integer non diam sit amet magna luctus mollis ac eu nisi. In accumsan tellus ut dapibus blandit.</p>
+Les fleurs visiblent de juillet à août, jaune verdâtre, sont petites mais très nombreuses. Elles se regroupent en petits capitules globuleux, pendants, réunis en grappes à l'extrémité des rameaux.
 
-                <blockquote>
-                    <h6><i class="fa fa-quote-left" aria-hidden="true"></i> Quisque sagittis non ex eget vestibulum. Sed nec ultrices dui. Cras et sagittis erat. Maecenas pulvinar, turpis in dictum tincidunt, dolor nibh lacinia lacus.</h6>
-                    <span>Liam Neeson</span>
-                </blockquote>
+L'espèce type "Artemisia maritima" a donné de nombreuses variétés, dont le semen-contra, utilisé comme vermifuge.  </p>
 
-                <p>Praesent ac magna sed massa euismod congue vitae vitae risus. Nulla lorem augue, mollis non est et, eleifend elementum ante. Nunc id pharetra magna. Praesent vel orci ornare, blandit mi sed, aliquet nisi. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.</p>
-            </div>
-
-            <!-- Related Blog Post -->
-            <div class="related-blog-post">
-                <!-- Single Related Blog Post -->
-                <div class="single-related-blog-post">
-                    <img src="img/images/dribbble_juvamed.png" alt="">
-                    <a href="#">
-                        <h5>Cras lobortis nisl nec libero pulvinar lacinia. Nunc sed ullamcorper massa</h5>
-                    </a>
+            <!-- Form -->
+            <form class="cart-form clearfix" method="post">
+                <!-- Select Box -->
+                <div class="select-box d-flex mt-50 mb-30">
+                    <select name="select" id="productSize" class="mr-5">
+                        <option value="value">100g</option>
+                        <option value="value">200g</option>
+                        <option value="value">300g</option>
+                        <option value="value">500g</option>
+                    </select>
                 </div>
-                <!-- Single Related Blog Post -->
-                <div class="single-related-blog-post">
-                    <img src="img/images/dribbble_juvamed.png" alt="">
-                    <a href="#">
-                        <h5>Fusce tincidunt nulla magna, ac euismod quam viverra id. Fusce eget metus feugiat</h5>
-                    </a>
+                <!-- Cart & Favourite Box -->
+                <div class="cart-fav-box d-flex align-items-center">
+                    <!-- Cart -->
+                    <button type="submit" name="addtocart" value="5" class="btn essence-btn">Ajouter au panier</button>
+                    <!-- Favourite -->
+                    <div class="product-favourite ml-4">
+                        <a href="#" class="favme fa fa-heart"></a>
+                    </div>
                 </div>
-                <!-- Single Related Blog Post -->
-                <div class="single-related-blog-post">
-                    <img src="img/images/dribbble_juvamed.png" alt="">
-                    <a href="#">
-                        <h5>Etiam leo nibh, consectetur nec orci et, tempus tempus ex</h5>
-                    </a>
-                </div>
-                <!-- Single Related Blog Post -->
-                <div class="single-related-blog-post">
-                    <img src="img/images/dribbble_juvamed.png" alt="">
-                    <a href="#">
-                        <h5>Sed viverra pellentesque dictum. Aenean ligula justo, viverra in lacus porttitor</h5>
-                    </a>
-                </div>
-            </div>
-
+            </form>
         </div>
-    </div>
-    <!-- ##### Blog Wrapper Area End ##### -->
+    </section>
+    <!-- ##### Single Product Details Area End ##### -->
 
     <!-- ##### Footer Area Start ##### -->
-    <footer class="footer_area clearfix">
+      <footer class="footer_area clearfix">
         <div class="container">
             <div class="row">
                 <!-- Single Widget Area -->
@@ -268,7 +257,7 @@
                         <!-- Footer Menu -->
                         <div class="footer_menu">
                             <ul>
-                                <li><a href="shop.html">Boutique</a></li>
+                                <li><a href="../global/allproducts.php">Boutique</a></li>
                                 <li><a href="blog.html">Blog</a></li>
                                 <li><a href="contact.html">Contact</a></li>
                             </ul>
@@ -319,7 +308,7 @@
                 </div>
             </div>
 
-<div class="row mt-5">
+        <div class="row mt-5">
                 <div class="col-md-12 text-center">
                     <p>
                         <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
@@ -333,18 +322,18 @@
     </footer>
     <!-- ##### Footer Area End ##### -->
 
-    <!-- jQuery (Necessary for All JavaScript Plugins) -->
-    <script src="js/jquery/jquery-2.2.4.min.js"></script>
+     <!-- jQuery (Necessary for All JavaScript Plugins) -->
+    <script src="../front/templates/js/jquery/jquery-2.2.4.min.js"></script>
     <!-- Popper js -->
-    <script src="js/popper.min.js"></script>
+    <script src="../front/templates/js/popper.min.js"></script>
     <!-- Bootstrap js -->
-    <script src="js/bootstrap.min.js"></script>
+    <script src="../front/templates/js/bootstrap.min.js"></script>
     <!-- Plugins js -->
-    <script src="js/plugins.js"></script>
+    <script src="../front/templates/js/plugins.js"></script>
     <!-- Classy Nav js -->
-    <script src="js/classy-nav.min.js"></script>
+    <script src="../front/templates/js/classy-nav.min.js"></script>
     <!-- Active js -->
-    <script src="js/active.js"></script>
+    <script src="../front/templates/js/active.js"></script>
 
 </body>
 

@@ -45,7 +45,7 @@ $select = $db ->prepare("SELECT * FROM products");
             <!-- Classy Menu -->
             <nav class="classy-navbar" id="essenceNav">
                 <!-- Logo -->
-                <a class="nav-brand" href="index.html"><img src="../front/templates/img/core-img/logo.png" alt=""></a>
+                <a class="nav-brand" href="../global/accueil.php"><img src="../front/templates/img/core-img/logo.png" alt=""></a>
                 <!-- Navbar Toggler -->
                 <div class="classy-navbar-toggler">
                     <span class="navbarToggler"><span></span><span></span><span></span></span>
@@ -62,39 +62,39 @@ $select = $db ->prepare("SELECT * FROM products");
                             <li><a href="#">Boutique</a>
                                 <div class="megamenu">
                                     <ul class="single-mega cn-col-4">
-                                      <li class="title">Plantes</li>
-                                        <li><a href="single-product-details1.html">template fiche produit à remplir</a></li>
-                                        <li><a href="single-product-details2.html">plante2</a></li>
-                                        <li><a href="single-product-details3.html">plante3</a></li>
-                                        <li><a href="single-product-details4.html">plante4</a></li>
-                                        <li><a href="single-product-details5.html">plante4</a></li>
+                                       <li class="title">Plantes</li>
+                                        <li><a href="../front/templates/single-product-details1.html">Absynth</a></li>
+                                        <li><a href="single-product-details2.html">Ashwagandha ginseng</a></li>
+                                        <li><a href="single-product-details3.html">Bardane</a></li>
+                                        <li><a href="single-product-details4.html">Bleuet</a></li>
+                                        <li><a href="single-product-details5.html">Cannelle de chine</a></li>
                                     </ul>
                                     <ul class="single-mega cn-col-4">
                                         <li class="title">Encens</li>
-                                        <li><a href="single-product-details6.html">Encens1</a></li>
-                                        <li><a href="single-product-details7.html">Encens2</a></li>
-                                        <li><a href="single-product-details8.html">Encens3</a></li>
-                                        <li><a href="single-product-details9.html">Encens4</a></li>
-                                        <li><a href="single-product-details10.html">Encens5</a></li>
+                                        <li><a href="single-product-details6.html">Djaoui noir</a></li>
+                                        <li><a href="single-product-details7.html">Encens Tibetain</a></li>
+                                        <li><a href="single-product-details8.html">Gomme d'elemi</a></li>
+                                        <li><a href="single-product-details9.html">Marie qui defait les noeuds</a></li>
+                                        <li><a href="single-product-details10.html">Oliban du souda</a></li>
                                     </ul>
                                     <ul class="single-mega cn-col-4">
                                         <li class="title">Résines</li>
-                                        <li><a href="single-product-details11.html">Résine1</a></li>
-                                        <li><a href="single-product-details12.html">Résine2</a></li>
-                                        <li><a href="single-product-details13.html">Résine3</a></li>
-                                        <li><a href="single-product-details14.html">Résine4</a></li>
-                                        <li><a href="single-product-details15.html">Résine5</a></li>
+                                        <li><a href="single-product-details11.html">Copal</a></li>
+                                        <li><a href="single-product-details12.html">Olibanum</a></li>
+                                        <li><a href="single-product-details13.html">Oliban</a></li>
+                                        <li><a href="single-product-details14.html">Myrrhe</a></li>
+                                        <li><a href="single-product-details15.html">Colophane</a></li>
                                     </ul>
                                     <div class="single-mega cn-col-4">
-                                        <img src="../front/templates/img/images/dribbble_juvamed.png" alt="">
+                                        <img src="img/images/dribbble_juvamed.png" alt="">
                                     </div>
                                 </div>
                             </li>
                             <li><a href="#">Pages</a>
                                 <ul class="dropdown">
-                                    <li><a href="index.html">Accueil</a></li>
+                                    <li><a href="../global/accueil.php">Accueil</a></li>
                                     <li><a href="single-product-details1.html">Produits détails</a></li>
-                                    <li><a href="shop.html">Produits</a></li>
+                                    <li><a href="../global/allproducts.php">Produits</a></li>
                                     <li><a href="single-blog.html">Blog</a></li>
                                 </ul>
                             </li>
@@ -243,35 +243,35 @@ $select = $db ->prepare("SELECT * FROM products");
                                 <ul id="menu-content2" class="menu-content collapse show">
                                     <!-- Single Item -->
                                     <li data-toggle="collapse" data-target="#clothing">
-                                        <a href="#">Plante</a>
+                                        <a href="#">Plantes</a>
                                         <ul class="sub-menu collapse show" id="clothing">
-                                            <li><a href="#">Plante</a></li>
-                                            <li><a href="#">Plante</a></li>
-                                            <li><a href="#">Plante</a></li>
-                                            <li><a href="#">Plante</a></li>
-                                            <li><a href="#">Plante</a></li>
+                                            <li><a href="../front/templates/single-product-details1.html">Absynth</a></li>
+                                            <li><a href="../front/templates/single-product-details2.html">Ashwagandha</a></li>
+                                            <li><a href="../front/templates/single-product-details3.html">Bardane</a></li>
+                                            <li><a href="../front/templates/single-product-details4.html">Bleuet</a></li>
+                                            <li><a href="../front/templates/single-product-details5.html">Cannelle de Chine</a></li>
                                         </ul>
                                     </li>
                                     <!-- Single Item -->
                                     <li data-toggle="collapse" data-target="#shoes" class="collapsed">
                                         <a href="#">Encens</a>
                                         <ul class="sub-menu collapse" id="shoes">
-                                            <li><a href="#">Encens</a></li>
-                                            <li><a href="#">Encens</a></li>
-                                            <li><a href="#">Encens</a></li>
-                                            <li><a href="#">Encens</a></li>
-                                            <li><a href="#">Encens</a></li>
+                                            <li><a href="../front/templates/single-product-details6.html">Djaoui noir</a></li>
+                                            <li><a href="../front/templates/single-product-details7.html">Encens tibetain</a></li>
+                                            <li><a href="../front/templates/single-product-details8.html">Gomme d'elemi</a></li>
+                                            <li><a href="../front/templates/single-product-details9.html">Marie qui defait des noeuds</a></li>
+                                            <li><a href="../front/templates/single-product-details10.html">Oliban du soudan</a></li>
                                         </ul>
                                     </li>
                                     <!-- Single Item -->
                                     <li data-toggle="collapse" data-target="#accessories" class="collapsed">
-                                        <a href="#">accessories</a>
+                                        <a href="#">Resines</a>
                                         <ul class="sub-menu collapse" id="accessories">
-                                            <li><a href="#">Résine</a></li>
-                                            <li><a href="#">Résine</a></li>
-                                            <li><a href="#">Résine</a></li>
-                                            <li><a href="#">Résine</a></li>
-                                            <li><a href="#">Résine</a></li>
+                                            <li><a href="../front/templates/single-product-details11.html">Copal</a></li>
+                                            <li><a href="../front/templates/single-product-details12.html">Olibanum</a></li>
+                                            <li><a href="../front/templates/single-product-details13.html">Oliban</a></li>
+                                            <li><a href="../front/templates/single-product-details14.html">Myrrhe</a></li>
+                                            <li><a href="../front/templates/single-product-details15.html">Colophane</a></li>
                                         </ul>
                                     </li>
                                 </ul>

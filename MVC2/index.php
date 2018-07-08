@@ -1,5 +1,7 @@
 <?php
 
+require_once ('global/accueil.php');
+
 //	Initialisation
 include 'global/init.php';
 
