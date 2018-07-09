@@ -2,14 +2,11 @@
 
 include '../includes/config.php';
 
-//if($_SESSION['email'] != 'vani'){
-    //exit;
-//}
-if(isset($_POST['submit'])){
-    
-    $username = $_POST['email'];
-    $password = $_POST['mdp'];
+if(!isset($_SESSION['email']) || $_SESSION['email'] != 'vani'){
+    echo 'mfkm';
+exit;
 }
+
 ?>
 <h1>Bienvenue,
     <?php echo $_SESSION['email']; ?>

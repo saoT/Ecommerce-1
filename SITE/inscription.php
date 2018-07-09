@@ -73,6 +73,7 @@ if(isset($_POST['submit'])){
     
     <div>
         <?php if($msg != ''){ echo $msg;} ?>
+        <h3> Inscription </h3><br/>
    <form method="post" action="inscription.php">
        <b>Nom :</b><br/>
         <input type="text" name="nom"/><br/>
