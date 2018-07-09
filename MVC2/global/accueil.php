@@ -13,11 +13,11 @@
     <title>E-commerce Mediplantes</title>
 
     <!-- Favicon  -->
-    <link rel="icon" href="../front/templates/img/core-img/favicon.ico">
+    <link rel="icon" href="front/templates/img/core-img/favicon.ico">
 
     <!-- Core Style CSS -->
-    <link rel="stylesheet" href="../front/templates/css/core-style.css">
-    <link rel="stylesheet" href="../front/templates/css/style.css">
+    <link rel="stylesheet" href="front/templates/css/core-style.css">
+    <link rel="stylesheet" href="front/templates/css/style.css">
 
 </head>
 
@@ -28,7 +28,7 @@
             <!-- Classy Menu -->
             <nav class="classy-navbar" id="essenceNav">
                 <!-- Logo -->
-                <a class="nav-brand" href="#"><img src="../front/templates/img/core-img/logo.png" alt=""></a>
+                <a class="nav-brand" href="#"><img src="front/templates/img/core-img/logo.png" alt=""></a>
                 <!-- Navbar Toggler -->
                 <div class="classy-navbar-toggler">
                     <span class="navbarToggler"><span></span><span></span><span></span></span>
@@ -42,7 +42,7 @@
                     <!-- Nav Start -->
                     <div class="classynav">
                         <ul>
-                            <li><a href="../global/accueil.php">Boutique</a>
+                            <li><a href="<?php echo $GLOBALS["app_url"] ?>index.php">Boutique</a>
                                 <div class="megamenu">
                                     <ul class="single-mega cn-col-4">
                                        <li class="title">Plantes</li>

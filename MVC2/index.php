@@ -1,5 +1,7 @@
 <?php
 
+$GLOBALS["app_url"] = 'http://localhost:8888/Ecommerce/MVC2/';
+
 require_once ('global/accueil.php');
 
 //	Initialisation
